@@ -1,4 +1,6 @@
-class Solution:
+# Brute force slow solution
+
+class Solution1:
     def twoSum(self, nums, target):
         """
         :type nums: List[int]
@@ -11,6 +13,8 @@ class Solution:
                     return [x,y]
         raise ValueError('No answer')
 
-sol = Solution()
+sol = Solution1()
 answer = sol.twoSum([2,7,12,23], 9)
 print(answer)
+
+
